@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#h{
+    list-style-type: none; 
+    margin: 0;
+    background-color: rgb(51, 51,51);
+    height: 40px;
+}
+.h{
+    padding: 10px;
+    background-color: rgb(51, 51,51);
+    color: white;
+    float: right;
+    opacity: 0.5;
+    border-right: 2px solid white;
+    transition: 0.3s;
+    
+}
+.active{
+    background-color: rgb(69, 235, 69) !important;
+    opacity: 1.0 !important;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.h:hover{
+    opacity: 1.0;
+    background-color: black;
+    text-shadow: 1px 1px 1px white;
+    margin-left: 13px;
+    margin-right: 12px;
+    animation-name: animacao;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    transform: scale(1.3);   
+    
+}
+@keyframes animacao{
+    0%{
+        transform: scale(1.3) rotate(7deg)
+        tra
+    }
+    
+    25%{
+        transform: scale(1.3) rotate(-7deg)
+    }
+    
+    75%{
+        transform: scale(1.3) rotate(7deg)
+    }
+    100%{
+        transform: scale(1.3) rotate(0deg)
+    }
+    
+}
+h1{
+    float: left;
+    margin: 0;
+    text-shadow: 1px 1px 1px white;
+    font-family: serif;
+}
+
+
+#v{
+    list-style-type: none;
+    width: 8%;
+    
+}
+.v{
+    
+    width: 100%;
+    background-color: rgb(51, 51,51);
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+    transition: all 0.3s;
+}
+.v:hover{
+    background-color: black;  
+    color: white;
+    animation-name: animacao;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    border: 1px solid white;
+    transform: scale(1.3);
+
+}
+#menuv{
+    margin-top: 5%;
+}
